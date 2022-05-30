@@ -33,3 +33,4 @@ console.log(aluno);
 const lista = [];
 lista.push(aluno);
 console.log(lista);
+console.log(lista.indexOf(aluno));
