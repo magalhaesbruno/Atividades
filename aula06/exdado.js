@@ -1,6 +1,6 @@
 const valores = {};
 for (i = 0; i < 100; i++) {
-  dado = Math.floor(Math.random() * 6 + 1);
+  dado = Math.floor(Math.random() * 6 + 1); // criando um número aleatorio inteiro de 1 a 6, se desejar alterar o range, só aumentar o "6"
   valores[i] = dado;
 }
 let dado1 = 0;
