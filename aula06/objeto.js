@@ -5,7 +5,7 @@ Os valores dentro de um objeto são chamados de propiedades.
 Objetos também podem ter métodos. Um método é uma função coloca dentro de uma propiedade.
 */
 const carro = {
-  marca: "Ford",
+  marca: "Toyta",
   modelo: "Ka",
   ano: 2015,
   placa: "ABC-12345",
@@ -16,6 +16,7 @@ const carro = {
     return `A marca é ${this.marca} e o modelo é: ${this.modelo}`;
   },
 };
+carro.marca = "Fiat ";
 console.log(carro);
 console.log(carro.buzina());
 console.log(carro.completo());
