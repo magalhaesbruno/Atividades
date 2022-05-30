@@ -20,3 +20,16 @@ console.log(uno);
 console.log(uno.buzina());
 //Posso alterar um dado dentro da classe assim:
 uno.ano = 2019;
+class Cadastro {
+  constructor(value1, value2, value3) {
+    this.nome = value1;
+    this.idade = value2;
+    this.sexo = value3;
+  }
+}
+
+const aluno = new Cadastro("Bruno", 27, "Masculino");
+console.log(aluno);
+const lista = [];
+lista.push(aluno);
+console.log(lista);
