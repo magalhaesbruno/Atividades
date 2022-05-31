@@ -14,9 +14,10 @@ const names = [
 // Exemplo: pessoas no index 0 tem como objeto { nome: "Bruno", idade: 30 }, pessoas no index 1 tem como objeto: { nome: "Maria", idade: 27 }
 //Quando quisermos percorrer o objeto atrás de um atributo em especifíco usamos names[pessoas].(atributo que desejamos)
 names.push = { nome: "João", idade: 22 };
+
 for (pessoas in names) {
   console.log(
-    `O nome: ${names[pessoas].nome} e a idade é: ${names[pessoas].idade}`
+    `O nome: ${names[pessoas].nome} e a idade é: ${names[pessoas].idade}` // 
   );
 }
 
