@@ -20,3 +20,16 @@ carro.marca = "Fiat ";
 console.log(carro);
 console.log(carro.buzina());
 console.log(carro.completo());
+
+const personagem = {
+  nome: {
+    primeiro: "Gandalf",
+    ultimo: "Cinzento",
+  },
+  adress: {
+    rua: "Idade Média",
+    número: 4.2,
+    bairro: "Bolsão",
+  },
+};
+console.log(personagem);
