@@ -43,3 +43,5 @@ lista.forEach(function (valor, position) {
 });
 
 console.log(lista.length);
+
+
